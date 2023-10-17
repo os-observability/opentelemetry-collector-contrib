@@ -21,7 +21,7 @@ require (
 	go.opentelemetry.io/collector/receiver v0.81.0
 	go.opentelemetry.io/collector/semconv v0.81.0
 	go.uber.org/multierr v1.11.0
-	google.golang.org/grpc v1.56.1
+	google.golang.org/grpc v1.58.3
 )
 
 require (
@@ -69,11 +69,10 @@ require (
 	go.opentelemetry.io/otel/trace v1.16.0 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
-	golang.org/x/net v0.11.0 // indirect
-	golang.org/x/oauth2 v0.9.0 // indirect
-	golang.org/x/sys v0.9.0 // indirect
-	golang.org/x/text v0.10.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20230530153820-e85fd2cbaebc // indirect
+	golang.org/x/net v0.17.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20231016165738-49dd2c1f3d0b // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
@@ -93,3 +92,63 @@ retract (
 replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+
+replace go.opentelemetry.io/collector => github.com/os-observability/collector v0.81.1
+
+replace go.opentelemetry.io/collector/component => github.com/os-observability/collector/component v0.81.1
+
+replace go.opentelemetry.io/collector/config/configauth => github.com/os-observability/collector/config/configauth v0.81.1
+
+replace go.opentelemetry.io/collector/config/configcompression => github.com/os-observability/collector/config/configcompression v0.81.1
+
+replace go.opentelemetry.io/collector/config/configgrpc => github.com/os-observability/collector/config/configgrpc v0.81.1
+
+replace go.opentelemetry.io/collector/config/confighttp => github.com/os-observability/collector/config/confighttp v0.81.1
+
+replace go.opentelemetry.io/collector/config/confignet => github.com/os-observability/collector/config/confignet v0.81.1
+
+replace go.opentelemetry.io/collector/config/configopaque => github.com/os-observability/collector/config/configopaque v0.81.1
+
+replace go.opentelemetry.io/collector/config/configtelemetry => github.com/os-observability/collector/config/configtelemetry v0.81.1
+
+replace go.opentelemetry.io/collector/config/configtls => github.com/os-observability/collector/config/configtls v0.81.1
+
+replace go.opentelemetry.io/collector/config/internal => github.com/os-observability/collector/config/internal v0.81.1
+
+replace go.opentelemetry.io/collector/confmap => github.com/os-observability/collector/confmap v0.81.1
+
+replace go.opentelemetry.io/collector/connector => github.com/os-observability/collector/connector v0.81.1
+
+replace go.opentelemetry.io/collector/consumer => github.com/os-observability/collector/consumer v0.81.1
+
+replace go.opentelemetry.io/collector/exporter => github.com/os-observability/collector/exporter v0.81.1
+
+replace go.opentelemetry.io/collector/exporter/loggingexporter => github.com/os-observability/collector/exporter/loggingexporter v0.81.1
+
+replace go.opentelemetry.io/collector/exporter/otlpexporter => github.com/os-observability/collector/exporter/otlpexporter v0.81.1
+
+replace go.opentelemetry.io/collector/exporter/otlphttpexporter => github.com/os-observability/collector/exporter/otlphttpexporter v0.81.1
+
+replace go.opentelemetry.io/collector/extension => github.com/os-observability/collector/extension v0.81.1
+
+replace go.opentelemetry.io/collector/extension/auth => github.com/os-observability/collector/extension/auth v0.81.1
+
+replace go.opentelemetry.io/collector/extension/ballastextension => github.com/os-observability/collector/extension/ballastextension v0.81.1
+
+replace go.opentelemetry.io/collector/extension/zpagesextension => github.com/os-observability/collector/extension/zpagesextension v0.81.1
+
+replace go.opentelemetry.io/collector/featuregate => github.com/os-observability/collector/featuregate v1.0.0-rcv0013
+
+replace go.opentelemetry.io/collector/pdata => github.com/os-observability/collector/pdata v1.0.0-rcv0013
+
+replace go.opentelemetry.io/collector/processor => github.com/os-observability/collector/processor v0.81.1
+
+replace go.opentelemetry.io/collector/processor/batchprocessor => github.com/os-observability/collector/processor/batchprocessor v0.81.1
+
+replace go.opentelemetry.io/collector/processor/memorylimiterprocessor => github.com/os-observability/collector/processor/memorylimiterprocessor v0.81.1
+
+replace go.opentelemetry.io/collector/receiver => github.com/os-observability/collector/receiver v0.81.1
+
+replace go.opentelemetry.io/collector/receiver/otlpreceiver => github.com/os-observability/collector/receiver/otlpreceiver v0.81.1
+
+replace go.opentelemetry.io/collector/semconv => github.com/os-observability/collector/semconv v0.81.1

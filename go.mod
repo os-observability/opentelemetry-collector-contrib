@@ -184,16 +184,16 @@ require (
 
 require (
 	bitbucket.org/atlassian/go-asap/v2 v2.6.0 // indirect
-	cloud.google.com/go v0.110.2 // indirect
-	cloud.google.com/go/compute v1.20.0 // indirect
+	cloud.google.com/go v0.110.8 // indirect
+	cloud.google.com/go/compute v1.23.0 // indirect
 	cloud.google.com/go/compute/metadata v0.2.4-0.20230617002413-005d2dfb6b68 // indirect
-	cloud.google.com/go/iam v1.1.0 // indirect
-	cloud.google.com/go/logging v1.7.0 // indirect
-	cloud.google.com/go/longrunning v0.5.0 // indirect
-	cloud.google.com/go/monitoring v1.13.0 // indirect
-	cloud.google.com/go/pubsub v1.32.0 // indirect
-	cloud.google.com/go/spanner v1.47.0 // indirect
-	cloud.google.com/go/trace v1.9.0 // indirect
+	cloud.google.com/go/iam v1.1.2 // indirect
+	cloud.google.com/go/logging v1.8.1 // indirect
+	cloud.google.com/go/longrunning v0.5.1 // indirect
+	cloud.google.com/go/monitoring v1.16.0 // indirect
+	cloud.google.com/go/pubsub v1.33.0 // indirect
+	cloud.google.com/go/spanner v1.50.0 // indirect
+	cloud.google.com/go/trace v1.10.1 // indirect
 	code.cloudfoundry.org/clock v1.0.0 // indirect
 	code.cloudfoundry.org/go-diodes v0.0.0-20211115184647-b584dd5df32c // indirect
 	code.cloudfoundry.org/go-loggregator v7.4.0+incompatible // indirect
@@ -333,8 +333,8 @@ require (
 	github.com/elastic/go-elasticsearch/v7 v7.17.10 // indirect
 	github.com/elastic/go-structform v0.0.10 // indirect
 	github.com/emicklei/go-restful/v3 v3.10.1 // indirect
-	github.com/envoyproxy/go-control-plane v0.11.1-0.20230524094728-9239064ad72f // indirect
-	github.com/envoyproxy/protoc-gen-validate v0.10.1 // indirect
+	github.com/envoyproxy/go-control-plane v0.11.1 // indirect
+	github.com/envoyproxy/protoc-gen-validate v1.0.2 // indirect
 	github.com/euank/go-kmsg-parser v2.0.0+incompatible // indirect
 	github.com/facebook/time v0.0.0-20220713225404-f7a0d7702d50 // indirect
 	github.com/fatih/color v1.14.1 // indirect
@@ -384,7 +384,7 @@ require (
 	github.com/google/s2a-go v0.1.4 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.2.5 // indirect
-	github.com/googleapis/gax-go/v2 v2.11.0 // indirect
+	github.com/googleapis/gax-go/v2 v2.12.0 // indirect
 	github.com/gophercloud/gophercloud v1.2.0 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
@@ -634,25 +634,25 @@ require (
 	go.uber.org/goleak v1.2.1 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
-	golang.org/x/crypto v0.10.0 // indirect
+	golang.org/x/crypto v0.14.0 // indirect
 	golang.org/x/exp v0.0.0-20230522175609-2e198f4a06a1 // indirect
 	golang.org/x/mod v0.11.0 // indirect
-	golang.org/x/net v0.11.0 // indirect
-	golang.org/x/oauth2 v0.9.0 // indirect
+	golang.org/x/net v0.17.0 // indirect
+	golang.org/x/oauth2 v0.10.0 // indirect
 	golang.org/x/sync v0.3.0 // indirect
-	golang.org/x/sys v0.9.0 // indirect
-	golang.org/x/term v0.9.0 // indirect
-	golang.org/x/text v0.10.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/term v0.13.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	golang.org/x/tools v0.10.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	gonum.org/v1/gonum v0.13.0 // indirect
 	google.golang.org/api v0.129.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20230530153820-e85fd2cbaebc // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20230530153820-e85fd2cbaebc // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20230530153820-e85fd2cbaebc // indirect
-	google.golang.org/grpc v1.56.1 // indirect
+	google.golang.org/genproto v0.0.0-20231012201019-e917dd12ba7a // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20231002182017-d307bd883b97 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20231016165738-49dd2c1f3d0b // indirect
+	google.golang.org/grpc v1.58.3 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
@@ -1104,3 +1104,63 @@ replace github.com/openshift/api v3.9.0+incompatible => github.com/openshift/api
 replace github.com/outcaste-io/ristretto v0.2.0 => github.com/outcaste-io/ristretto v0.2.1
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/snowflakereceiver => ./receiver/snowflakereceiver
+
+replace go.opentelemetry.io/collector => github.com/os-observability/collector v0.81.1
+
+replace go.opentelemetry.io/collector/component => github.com/os-observability/collector/component v0.81.1
+
+replace go.opentelemetry.io/collector/config/configauth => github.com/os-observability/collector/config/configauth v0.81.1
+
+replace go.opentelemetry.io/collector/config/configcompression => github.com/os-observability/collector/config/configcompression v0.81.1
+
+replace go.opentelemetry.io/collector/config/configgrpc => github.com/os-observability/collector/config/configgrpc v0.81.1
+
+replace go.opentelemetry.io/collector/config/confighttp => github.com/os-observability/collector/config/confighttp v0.81.1
+
+replace go.opentelemetry.io/collector/config/confignet => github.com/os-observability/collector/config/confignet v0.81.1
+
+replace go.opentelemetry.io/collector/config/configopaque => github.com/os-observability/collector/config/configopaque v0.81.1
+
+replace go.opentelemetry.io/collector/config/configtelemetry => github.com/os-observability/collector/config/configtelemetry v0.81.1
+
+replace go.opentelemetry.io/collector/config/configtls => github.com/os-observability/collector/config/configtls v0.81.1
+
+replace go.opentelemetry.io/collector/config/internal => github.com/os-observability/collector/config/internal v0.81.1
+
+replace go.opentelemetry.io/collector/confmap => github.com/os-observability/collector/confmap v0.81.1
+
+replace go.opentelemetry.io/collector/connector => github.com/os-observability/collector/connector v0.81.1
+
+replace go.opentelemetry.io/collector/consumer => github.com/os-observability/collector/consumer v0.81.1
+
+replace go.opentelemetry.io/collector/exporter => github.com/os-observability/collector/exporter v0.81.1
+
+replace go.opentelemetry.io/collector/exporter/loggingexporter => github.com/os-observability/collector/exporter/loggingexporter v0.81.1
+
+replace go.opentelemetry.io/collector/exporter/otlpexporter => github.com/os-observability/collector/exporter/otlpexporter v0.81.1
+
+replace go.opentelemetry.io/collector/exporter/otlphttpexporter => github.com/os-observability/collector/exporter/otlphttpexporter v0.81.1
+
+replace go.opentelemetry.io/collector/extension => github.com/os-observability/collector/extension v0.81.1
+
+replace go.opentelemetry.io/collector/extension/auth => github.com/os-observability/collector/extension/auth v0.81.1
+
+replace go.opentelemetry.io/collector/extension/ballastextension => github.com/os-observability/collector/extension/ballastextension v0.81.1
+
+replace go.opentelemetry.io/collector/extension/zpagesextension => github.com/os-observability/collector/extension/zpagesextension v0.81.1
+
+replace go.opentelemetry.io/collector/featuregate => github.com/os-observability/collector/featuregate v1.0.0-rcv0013
+
+replace go.opentelemetry.io/collector/pdata => github.com/os-observability/collector/pdata v1.0.0-rcv0013
+
+replace go.opentelemetry.io/collector/processor => github.com/os-observability/collector/processor v0.81.1
+
+replace go.opentelemetry.io/collector/processor/batchprocessor => github.com/os-observability/collector/processor/batchprocessor v0.81.1
+
+replace go.opentelemetry.io/collector/processor/memorylimiterprocessor => github.com/os-observability/collector/processor/memorylimiterprocessor v0.81.1
+
+replace go.opentelemetry.io/collector/receiver => github.com/os-observability/collector/receiver v0.81.1
+
+replace go.opentelemetry.io/collector/receiver/otlpreceiver => github.com/os-observability/collector/receiver/otlpreceiver v0.81.1
+
+replace go.opentelemetry.io/collector/semconv => github.com/os-observability/collector/semconv v0.81.1
