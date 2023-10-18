@@ -1,11 +1,11 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/dynatraceexporter
+module github.com/os-observability/opentelemetry-collector-contrib/exporter/dynatraceexporter
 
 go 1.19
 
 require (
 	github.com/dynatrace-oss/dynatrace-metric-utils-go v0.5.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/internal/common v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.81.0
 	github.com/stretchr/testify v1.8.4
 	go.opentelemetry.io/collector/component v0.81.0
 	go.opentelemetry.io/collector/config/confighttp v0.81.0
@@ -65,11 +65,11 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/common => ../../internal/common
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry => ../../pkg/resourcetotelemetry
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/resourcetotelemetry => ../../pkg/resourcetotelemetry
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
 retract (
 	v0.76.2
@@ -77,6 +77,6 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest

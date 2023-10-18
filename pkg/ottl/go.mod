@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl
+module github.com/os-observability/opentelemetry-collector-contrib/pkg/ottl
 
 go 1.19
 
@@ -8,7 +8,7 @@ require (
 	github.com/google/uuid v1.3.0
 	github.com/iancoleman/strcase v0.2.0
 	github.com/json-iterator/go v1.1.12
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/internal/coreinternal v0.81.0
 	github.com/stretchr/testify v1.8.4
 	go.opentelemetry.io/collector/component v0.81.0
 	go.opentelemetry.io/collector/pdata v1.0.0-rcv0013
@@ -46,7 +46,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
 retract (
 	v0.76.2
@@ -54,6 +54,6 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../pdatautil
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatautil => ../pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../pdatatest
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatatest => ../pdatatest

@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+module github.com/os-observability/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
 
 go 1.19
 
@@ -7,13 +7,13 @@ require (
 	github.com/google/go-cmp v0.5.9
 	github.com/google/uuid v1.3.0
 	github.com/iancoleman/strcase v0.2.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8stest v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/internal/common v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/internal/coreinternal v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/internal/k8sconfig v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/internal/k8stest v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatatest v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/pkg/translator/opencensus v0.81.0
 	github.com/openshift/api v3.9.0+incompatible
 	github.com/openshift/client-go v0.0.0-20210521082421-73d9475a9142
 	github.com/stretchr/testify v1.8.4
@@ -74,7 +74,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/mostynb/go-grpc-compression v1.2.0 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.81.0 // indirect
+	github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatautil v0.81.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.0-rc2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
@@ -136,15 +136,15 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/common => ../../internal/common
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig => ../../internal/k8sconfig
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/k8sconfig => ../../internal/k8sconfig
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata => ../../pkg/experimentalmetricmetadata
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata => ../../pkg/experimentalmetricmetadata
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus => ../../pkg/translator/opencensus
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/translator/opencensus => ../../pkg/translator/opencensus
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
 retract (
 	v0.76.2
@@ -152,11 +152,11 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
 // openshift removed all tags from their repo, use the pseudoversion from the release-3.9 branch HEAD
 replace github.com/openshift/api v3.9.0+incompatible => github.com/openshift/api v0.0.0-20180801171038-322a19404e37
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8stest => ../../internal/k8stest
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/k8stest => ../../internal/k8stest

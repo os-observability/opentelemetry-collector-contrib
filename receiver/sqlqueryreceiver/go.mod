@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlqueryreceiver
+module github.com/os-observability/opentelemetry-collector-contrib/receiver/sqlqueryreceiver
 
 go 1.19
 
@@ -8,10 +8,10 @@ require (
 	github.com/docker/go-connections v0.4.0
 	github.com/go-sql-driver/mysql v1.7.1
 	github.com/lib/pq v1.10.9
-	github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/extension/storage v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/internal/coreinternal v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatatest v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/pkg/stanza v0.81.0
 	github.com/sijms/go-ora/v2 v2.7.8
 	github.com/snowflakedb/gosnowflake v1.6.18
 	github.com/stretchr/testify v1.8.4
@@ -88,7 +88,7 @@ require (
 	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/mtibben/percent v0.2.1 // indirect
 	github.com/observiq/ctimefmt v1.0.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.81.0 // indirect
+	github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatautil v0.81.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.0-rc2 // indirect
 	github.com/opencontainers/runc v1.1.5 // indirect
@@ -130,12 +130,12 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage => ../../extension/storage
+replace github.com/os-observability/opentelemetry-collector-contrib/extension/storage => ../../extension/storage
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza => ../../pkg/stanza
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/stanza => ../../pkg/stanza

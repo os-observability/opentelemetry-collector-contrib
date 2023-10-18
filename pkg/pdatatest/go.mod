@@ -1,10 +1,10 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest
+module github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatatest
 
 go 1.19
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/internal/coreinternal v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatautil v0.81.0
 	github.com/stretchr/testify v1.8.4
 	go.opentelemetry.io/collector/pdata v1.0.0-rcv0013
 	go.uber.org/multierr v1.11.0
@@ -28,9 +28,9 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../pdatautil
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatautil => ../pdatautil
 
 retract (
 	v0.76.2

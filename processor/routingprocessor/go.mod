@@ -1,9 +1,9 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/processor/routingprocessor
+module github.com/os-observability/opentelemetry-collector-contrib/processor/routingprocessor
 
 go 1.19
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/pkg/ottl v0.81.0
 	github.com/stretchr/testify v1.8.4
 	go.opentelemetry.io/collector/component v0.81.0
 	go.opentelemetry.io/collector/config/configgrpc v0.81.0
@@ -45,7 +45,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/mostynb/go-grpc-compression v1.2.0 // indirect
 	github.com/observiq/ctimefmt v1.0.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.81.0 // indirect
+	github.com/os-observability/opentelemetry-collector-contrib/internal/coreinternal v0.81.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/collector v0.81.0 // indirect
@@ -71,7 +71,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl => ../../pkg/ottl
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/ottl => ../../pkg/ottl
 
 retract (
 	v0.76.2
@@ -79,11 +79,11 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
 // ambiguous import: found package cloud.google.com/go/compute/metadata in multiple modules
 replace cloud.google.com/go v0.34.0 => cloud.google.com/go v0.110.2

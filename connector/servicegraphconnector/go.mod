@@ -1,9 +1,9 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/connector/servicegraphconnector
+module github.com/os-observability/opentelemetry-collector-contrib/connector/servicegraphconnector
 
 go 1.18
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/processor/servicegraphprocessor v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/processor/servicegraphprocessor v0.81.0
 	github.com/stretchr/testify v1.8.4
 	go.opentelemetry.io/collector/component v0.81.0
 	go.opentelemetry.io/collector/connector v0.81.0
@@ -54,4 +54,4 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/processor/servicegraphprocessor => ../../processor/servicegraphprocessor/
+replace github.com/os-observability/opentelemetry-collector-contrib/processor/servicegraphprocessor => ../../processor/servicegraphprocessor/

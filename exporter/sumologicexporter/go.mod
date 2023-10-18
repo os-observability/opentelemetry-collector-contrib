@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sumologicexporter
+module github.com/os-observability/opentelemetry-collector-contrib/exporter/sumologicexporter
 
 go 1.19
 

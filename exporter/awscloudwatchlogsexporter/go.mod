@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awscloudwatchlogsexporter
+module github.com/os-observability/opentelemetry-collector-contrib/exporter/awscloudwatchlogsexporter
 
 go 1.19
 
@@ -6,8 +6,8 @@ require (
 	github.com/aws/aws-sdk-go v1.44.295
 	github.com/cenkalti/backoff/v4 v4.2.1
 	github.com/google/uuid v1.3.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/cwlogs v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/internal/aws/awsutil v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/internal/aws/cwlogs v0.81.0
 	github.com/stretchr/testify v1.8.4
 	go.opentelemetry.io/collector/component v0.81.0
 	go.opentelemetry.io/collector/confmap v0.81.0
@@ -53,9 +53,9 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil => ../../internal/aws/awsutil
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/aws/awsutil => ../../internal/aws/awsutil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/cwlogs => ../../internal/aws/cwlogs
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/aws/cwlogs => ../../internal/aws/cwlogs
 
 retract (
 	v0.76.2

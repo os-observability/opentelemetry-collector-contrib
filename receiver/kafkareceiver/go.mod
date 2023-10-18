@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkareceiver
+module github.com/os-observability/opentelemetry-collector-contrib/receiver/kafkareceiver
 
 go 1.19
 
@@ -7,10 +7,10 @@ require (
 	github.com/apache/thrift v0.18.1
 	github.com/gogo/protobuf v1.3.2
 	github.com/jaegertracing/jaeger v1.41.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kafkaexporter v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/exporter/kafkaexporter v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/internal/coreinternal v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/pkg/translator/jaeger v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/pkg/translator/zipkin v0.81.0
 	github.com/openzipkin/zipkin-go v0.4.1
 	github.com/stretchr/testify v1.8.4
 	go.opencensus.io v0.24.0
@@ -83,13 +83,13 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kafkaexporter => ../../exporter/kafkaexporter
+replace github.com/os-observability/opentelemetry-collector-contrib/exporter/kafkaexporter => ../../exporter/kafkaexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger => ../../pkg/translator/jaeger
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/translator/jaeger => ../../pkg/translator/jaeger
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin => ../../pkg/translator/zipkin
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/translator/zipkin => ../../pkg/translator/zipkin
 
 retract (
 	v0.76.2
@@ -97,6 +97,6 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest

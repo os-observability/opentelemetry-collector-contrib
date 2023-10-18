@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/testbed/mockdatasenders/mockdatadogagentexporter
+module github.com/os-observability/opentelemetry-collector-contrib/testbed/mockdatasenders/mockdatadogagentexporter
 
 go 1.19
 

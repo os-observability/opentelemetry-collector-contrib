@@ -1,10 +1,10 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/k8sobserver
+module github.com/os-observability/opentelemetry-collector-contrib/extension/observer/k8sobserver
 
 go 1.19
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/extension/observer v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/internal/k8sconfig v0.81.0
 	github.com/stretchr/testify v1.8.4
 	go.opentelemetry.io/collector/component v0.81.0
 	go.opentelemetry.io/collector/confmap v0.81.0
@@ -73,9 +73,9 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer => ../
+replace github.com/os-observability/opentelemetry-collector-contrib/extension/observer => ../
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig => ../../../internal/k8sconfig
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/k8sconfig => ../../../internal/k8sconfig
 
 // openshift removed all tags from their repo, use the pseudoversion from the release-3.9 branch HEAD
 replace github.com/openshift/api v3.9.0+incompatible => github.com/openshift/api v0.0.0-20180801171038-322a19404e37

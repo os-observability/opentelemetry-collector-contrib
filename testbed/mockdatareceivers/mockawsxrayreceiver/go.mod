@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/testbed/mockdatareceivers/mockawsxrayreceiver
+module github.com/os-observability/opentelemetry-collector-contrib/testbed/mockdatareceivers/mockawsxrayreceiver
 
 go 1.19
 

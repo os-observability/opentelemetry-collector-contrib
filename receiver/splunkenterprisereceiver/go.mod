@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/splunkenterprisereceiver
+module github.com/os-observability/opentelemetry-collector-contrib/receiver/splunkenterprisereceiver
 
 go 1.19
 

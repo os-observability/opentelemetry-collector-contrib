@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/processor/datadogprocessor
+module github.com/os-observability/opentelemetry-collector-contrib/processor/datadogprocessor
 
 go 1.19
 

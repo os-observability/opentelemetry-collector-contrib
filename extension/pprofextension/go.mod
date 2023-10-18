@@ -1,9 +1,9 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/extension/pprofextension
+module github.com/os-observability/opentelemetry-collector-contrib/extension/pprofextension
 
 go 1.19
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.81.0
+	github.com/os-observability/opentelemetry-collector-contrib/internal/common v0.81.0
 	github.com/stretchr/testify v1.8.4
 	go.opentelemetry.io/collector/component v0.81.0
 	go.opentelemetry.io/collector/config/confignet v0.81.0
@@ -39,7 +39,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/common => ../../internal/common
 
 retract (
 	v0.76.2

@@ -1,11 +1,11 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datasetexporter
+module github.com/os-observability/opentelemetry-collector-contrib/exporter/datasetexporter
 
 go 1.19
 
 require (
 	github.com/google/uuid v1.3.0
-	// github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/filestorage v0.77.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.81.0
+	// github.com/os-observability/opentelemetry-collector-contrib/extension/storage/filestorage v0.77.0
+	github.com/os-observability/opentelemetry-collector-contrib/internal/coreinternal v0.81.0
 	github.com/scalyr/dataset-go v0.0.9
 	github.com/stretchr/testify v1.8.4
 	go.opentelemetry.io/collector/component v0.81.0
@@ -60,8 +60,8 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/os-observability/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/os-observability/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
